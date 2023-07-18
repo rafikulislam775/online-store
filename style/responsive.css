@@ -1,0 +1,17 @@
+@media screen and (max-width: 576px) {
+  .nav-container,
+  .nav-items-container {
+    flex-direction: column;
+  }
+  .logo-container img {
+    width: 70px;
+  }
+  .nav-items-container a {
+    margin: 10px;
+  }
+  .nav-items-container .log-btn {
+    width: 150%;
+    text-align: center;
+    margin: 0 20px;
+  }
+}

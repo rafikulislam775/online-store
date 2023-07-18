@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+.nav-bg {
+  background-color: rgba(41, 8, 72, 0.817);
+  /* opacity: .8; */
+  color: white;
+}
+.nav-container {
+  border: 1px solid red;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  /*  max-width: 1400px;  margin: 0 auto;  neyar fole etar nav bar 
+  1400 px er boro screen e eta maje i takbe */
+  max-width: 1400px;
+  margin: auto;
+}
+.logo-container {
+  display: flex;
+  width: 50%;
+}
+/* .logo-container er bitorer img ta select kora hoyese */
+.logo-container img {
+  width: 50px;
+  /* er jnn img regulation tik rake */
+  object-fit: cover;
+}
+.logo-container p {
+  font-size: 30px;
+  margin-left: 20px;
+}
+.hive {
+  color: rgb(220, 79, 79);
+}
+.nav-items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-items-container a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.log-btn {
+  background-color: rgb(220, 79, 79);
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: 700;
+
+}

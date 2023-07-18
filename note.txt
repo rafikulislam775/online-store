@@ -1,0 +1,10 @@
+/* .logo-container er bitorer img ta select kora hoyese */
+.logo-container img{}
+
+  /* er jnn img regulation tik rake */
+   object-fit: cover;
+
+ /*  max-width: 1400px;  margin: 0 auto;  neyar fole etar nav bar 
+  1400 px er boro screen e eta maje i takbe */
+  max-width: 1400px;
+  margin: auto;
